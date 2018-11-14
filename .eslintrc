@@ -1,0 +1,116 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "jsx-a11y"
+  ],
+  "rules": {
+    "arrow-body-style": [
+      "warn",
+      "as-needed"
+    ],
+    "block-spacing": [
+      "error",
+      "never"
+    ],
+    "indent": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "aspects": [
+          "invalidHref"
+        ]
+      }
+    ],
+    "linebreak-style": 0,
+    "lines-between-class-members": 0,
+    "max-len": [
+      "error",
+      80
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "no-undef": "off",
+    "no-unused-vars": 0,
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "log",
+          "error"
+        ]
+      }
+    ],
+    "no-multi-spaces": [
+      "error",
+      {
+        "ignoreEOLComments": true
+      }
+    ],
+    "no-multiple-empty-lines": "off",
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "no-shadow": "off",
+    "no-trailing-spaces": "off",
+    "import/named": "off",
+    "object-curly-newline": "off",
+    "object-curly-spacing": "off",
+    "one-var": [
+      "error",
+      {
+        "initialized": "never",
+        "uninitialized": "always"
+      }
+    ],
+    "react/jsx-filename-extension": 0,
+    "react/jsx-indent": [
+      true,
+      2
+    ],
+    "react/no-multi-comp": 0,
+    "react/jsx-closing-bracket-location": false,
+    "react/jsx-first-prop-new-line": false,
+    "react/jsx-max-props-per-line": false,
+    "react/jsx-indent-props": false,
+    "react/jsx-one-expression-per-line": false,
+    "react/prop-types": 0,
+    "react/require-default-props": 0,
+    "react/sort-comp": [
+      1,
+      {
+        "order": [
+          "type-annotations",
+          "static-methods",
+          "lifecycle",
+          "everything-else",
+          "render"
+        ]
+      }
+    ],
+    "semi": "off",
+    "spaced-comment": 0
+  }
+}

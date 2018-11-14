@@ -1,0 +1,35 @@
+{
+  "name": "app-006",
+  "version": "0.1.0",
+  "description": "Dungeon calendar",
+  "main": "index.js",
+  "repository": "https://github.com/bnguyensn/app-006",
+  "author": "bnguyensn",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js",
+    "build:d": "webpack-dev-server --config webpack.config.js --progress",
+    "build:p": "rimraf ./dist && webpack --config webpack.config.js --progress",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "rimraf": "^2.6.2",
+    "ts-loader": "^5.3.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.6.3"
+  }
+}
