@@ -66,7 +66,7 @@ module.exports = (env, argv) => ({
   ],
 
   optimization: {
-    
+
   },
 
   resolve: {
