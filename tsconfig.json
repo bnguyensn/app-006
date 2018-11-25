@@ -1,20 +1,35 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
-    "noImplicitAny": true,
-    "module": "es6",
+    "module": "esnext",
     "target": "es5",
     "jsx": "react",
+    "lib": [
+      "dom",
+      "es6",
+      "scripthost",
+      "dom.iterable",
+      "webworker"
+    ],
     "allowJs": true,
     "moduleResolution": "node",
-    "removeComments": true
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": true
   },
   "include": [
     "./src/**/*"
   ],
   "exclude": [
-    "node_modules",
+    "acceptance-tests",
+    "build",
     "dist",
-    "tests"
+    "jest",
+    "node_modules",
+    "scripts",
+    "tests",
+    "webpack"
   ]
 }
