@@ -11,6 +11,7 @@
       "webworker"
     ],
     "allowJs": true,
+    "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "noImplicitAny": true,
     "noImplicitReturns": true,
