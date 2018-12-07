@@ -73,7 +73,7 @@ module.exports = (env, argv) => ({
     extensions: ['.tsx', '.ts', '.js', '.json'],
   },
 
-  devtool: env.prod ? null : 'cheap-module-eval-source-map',
+  devtool: env.prod ? false : 'cheap-module-eval-source-map',
 
   devServer: {
     contentBase: path.resolve(__dirname, 'src/html/index_dev.html'),

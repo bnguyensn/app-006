@@ -9,8 +9,8 @@
   "private": false,
   "scripts": {
     "start": "node app.js",
-    "build:d": "webpack-dev-server --env.prod --config webpack.config.js --progress",
-    "build:p": "rimraf ./dist && webpack --config webpack.config.js --progress",
+    "build:d": "webpack-dev-server --config webpack.config.js --progress",
+    "build:p": "rimraf ./dist && webpack --env.prod --config webpack.config.js --progress",
     "test": "jest"
   },
   "devDependencies": {
