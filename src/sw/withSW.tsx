@@ -112,8 +112,9 @@ export default function withSW<P extends object>(C: React.ComponentType<P>) {
     };
 
     render() {
+      const {...props} = this.props;
       return (
-        <C/>
+        <C {...props} />
       )
     }
   };
