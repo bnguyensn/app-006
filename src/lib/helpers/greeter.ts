@@ -11,12 +11,12 @@ class Student {
 
 }
 
-interface Person {
+interface IPerson {
   firstName: string;
   lastName: string;
 }
 
-export default function greet(p: Person) {
+export default function greet(p: IPerson) {
   return `Hello ${p.firstName} ${p.lastName}`
 }
 

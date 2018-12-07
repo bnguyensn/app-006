@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2019-01-01",
+    "flags": [
+      {
+        "name": "Checkpoint 1",
+        "desc": "The very first checkpoint",
+        "icon": "ico1.svg"
+      }
+    ],
+    "people": [
+      {
+        "name": "Jaina Proudmoore",
+        "title": "Leader of the Kirin Tor",
+        "hours": 7
+      },
+      {
+        "name": "Rexxar",
+        "title": "Wild hunter",
+        "hours": 7
+      }
+    ]
+  }
+]
